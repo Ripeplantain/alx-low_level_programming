@@ -1,11 +1,11 @@
-#include<stdio.h>
-/*
-*Main:The main function is used to send 
-*what is in the input function in the header file
-*Return:The return function  is used to return 0 if code is successful
-*/
+#include <stdio.h>
+
+/**
+ * main - prints the phrase "Programming is like building a multilingual puzzle
+ * Return: 0 if exited properly, non-zero otherwise
+ */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
