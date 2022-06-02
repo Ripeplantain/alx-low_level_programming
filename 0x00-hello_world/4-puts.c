@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 /*
-* main - the main function is used to  send what is in the input function in the header file
-* return This is used to return 0 if code is successful
+* Description:  The main function is used to send 
+*what is in the input function in the header file
+* The return function  is used to return 0 if code is successful
 */
 int main(void)
 {
