@@ -1,11 +1,8 @@
 #include<stdio.h>
 
 /**
- * main - This prints file into header file
- *@void : Arguement for main function
- *Description : This function is used to print,
- *what is in the function.
- * return : This return int 0 if codes success
+ * main - prints the size of various types
+ * Return: 0 if exited properly, non-zero otherwise
  */
 
 int main(void)
