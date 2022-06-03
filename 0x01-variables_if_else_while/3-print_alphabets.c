@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - displays whats in the function
  * return - gives 0
  */
@@ -13,6 +13,5 @@ int main(void)
     for (a = 'A'; a <= 'Z'; a++)
         putchar(a);
     putchar('\n');
-
     return 0;
 }
