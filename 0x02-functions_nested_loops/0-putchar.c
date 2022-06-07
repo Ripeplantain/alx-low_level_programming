@@ -1,5 +1,5 @@
-#include <string.h>
 #include "main.h"
+
 /**
  * main - print out main character by char.
  * Description: uses the main header file
