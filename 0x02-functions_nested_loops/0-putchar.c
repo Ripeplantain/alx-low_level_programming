@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
+#include "main.h"
 /**
  * main - print out main character by char.
  * Description: uses the main header file
@@ -15,7 +12,7 @@ int main(void)
 	char string[] = "_putchar";
 
 	for (i = 0; i < strlen(string); i++)
-		printf("%c", string[i]);
+		_putchar(string[i]);
 
-	printf("\n");
+	_putchar("\n");
 }
