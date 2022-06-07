@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 /**
  * main - print out main character by char.
@@ -11,8 +12,11 @@ int main(void)
 	int i;
 	char string[] = "_putchar";
 
-	for (i = 0; i < strlen(string); i++)
-		_putchar(string[i]);
-
+	i = 0;
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
 	_putchar("\n");
 }
