@@ -2,7 +2,5 @@ CC = gcc
 SRC = main.c school.c
 NAME = school
     
-all : main.c school.c
-	gcc main.c school.c -o school
-variables : $(SRC)
+all : $(SRC)
 	$(CC) $(SRC) -o $(NAME)
